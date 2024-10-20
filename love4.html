@@ -114,7 +114,7 @@
 
         #child {
             position: fixed;
-            top: 40%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center; /* Center align text */
@@ -154,12 +154,12 @@
 
 <body>
     <div id="child">
-        <h4>Cho tui cơ hội tìm</h4>
-        <h3>hiểu bà nhoé💗</h3>
+        <h4>Trên thang điểm 10</h4>
+        <h3>Thì bà 20/10</h3>
     </div>
 
-    <button id="yesButton" class="styledButton">Yes</button>
-    <button id="noButton" class="styledButton">No</button>
+    <!--<button id="yesButton" class="styledButton">Yes</button>
+    <button id="noButton" class="styledButton">No</button>-->
 
     <!--这里写名字❤！！！-->
     <canvas id="pinkboard"></canvas>
@@ -404,6 +404,7 @@
         // Function to send a message to Messenger
         // Function to send a message to Messenger
 // Function to send a message to Messenger
+
 function sendMessageToMessenger(message) {
     const encodedMessage = encodeURIComponent(message); // Encode the message to handle special characters
     window.open(`https://m.me/deptraimabidien?ref=${encodedMessage}`, '_blank'); // Open Messenger with the message in the ref
@@ -435,8 +436,7 @@ document.getElementById('yesButton').addEventListener('click', function() {
 });
 
 // Add event listener for the "No" button
-document.getElementById('noButton').addEventListener('click', moveNoButton);
-
+document.getElementById('noButton').addEventListener('click', moveNoButton); 
     </script>
 
 </BODY>
